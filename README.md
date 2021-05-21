@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/senseyeio/duration"
+	"github.com/Calidity/duration"
 )
 
 func main() {
