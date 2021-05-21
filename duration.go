@@ -94,11 +94,11 @@ func (d Duration) Shift(t time.Time) time.Time {
 		days := d.W*7 + d.D
 		t = t.AddDate(d.Y, d.M, days)
 	}
-	t = t.Add(d.timeDuration())
+	t = t.Add(d.ToTimeDuration())
 	return t
 }
 
-func (d Duration) timeDuration() time.Duration {
+func (d Duration) ToTimeDuration() time.Duration {
 	var dur time.Duration
 	dur = dur + (time.Duration(d.TH) * time.Hour)
 	dur = dur + (time.Duration(d.TM) * time.Minute)
