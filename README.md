@@ -1,6 +1,8 @@
-Duration [![Build](https://travis-ci.org/senseyeio/duration.svg?branch=master)](https://travis-ci.org/senseyeio/duration) [![Coverage](https://coveralls.io/repos/github/senseyeio/duration/badge.svg?branch=master)](https://coveralls.io/github/senseyeio/duration?branch=master) [![Go Report Card](https://goreportcard.com/badge/senseyeio/duration)](https://goreportcard.com/report/senseyeio/duration) [![GoDoc](https://godoc.org/github.com/senseyeio/duration?status.svg)](https://godoc.org/github.com/senseyeio/duration)
+Duration [![Build](https://github.com/Calidity/duration/actions/workflows/test.yml/badge.svg)](https://github.com/Calidity/duration/actions) [![Coverage](https://coveralls.io/repos/github/Calidity/duration/badge.svg?branch=master)](https://coveralls.io/github/Calidity/duration?branch=master) [![Go Report Card](https://goreportcard.com/badge/Calidity/duration)](https://goreportcard.com/report/Calidity/duration) [![Go Reference](https://pkg.go.dev/badge/github.com/Calidity/duration.svg)](https://pkg.go.dev/github.com/Calidity/duration)
 =======
 Parse ISO8601 duration strings, and use to shift dates/times.
+
+Original credit goes to [https://github.com/senseyeio/duration](https://github.com/senseyeio/duration).
 
 Basic Example
 -------------
@@ -39,7 +41,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/senseyeio/duration"
+	"github.com/Calidity/duration"
 )
 
 func main() {
